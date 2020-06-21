@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f6acc8;
+}
+
+header {
+  font-family: 'Dancing Script', cursive;
+  color: #584153;
+}
+
+main {
+  font-family: 'EB Garamond', serif;
+  color: #584153;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.image-page {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 100%;
+  border: #26191b 1rem solid;
+}
+
+.header-page {
+  text-align: center;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-main {
+  font-size: 1.6rem;
+  text-align: center;
+  width: 30rem;
+}
